@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f4">
+  <meta name="description" content="ArtifyAny is a visual gallery of original watercolor, pencil, illustration, and conceptual artworks. Explore the collection and connect on Instagram.">
+  <meta property="og:title" content="ArtifyAny — Art, worth looking at.">
+  <meta property="og:description" content="An independent art portfolio by ArtifyAny.">
+  <meta property="og:image" content="images/art-06.jpg">
+  <title>ArtifyAny — Art, worth looking at.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#gallery">Skip to artwork</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<header class="site-header" id="siteHeader">
+ <div class="nav-shell wrap">
+  <a class="wordmark" href="#home" aria-label="ArtifyAny home">artify<span>any</span><b>✳</b></a>
+  <nav aria-label="Main navigation"><a href="#gallery">The gallery</a><a href="#about">The story</a><a href="#contact">Contact</a></nav>
+  <a class="nav-action" href="https://www.instagram.com/artifyany/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+ </div>
+</header>
+<main>
+<section class="hero wrap" id="home" aria-labelledby="hero-title">
+ <div class="hero-topline"><span class="status-dot"></span><span>AN INDEPENDENT ART SPACE</span><span class="edition">EST. WITH IMAGINATION ✴</span></div>
+ <div class="hero-grid">
+  <div class="hero-copy">
+    <p class="eyebrow hero-enter">WELCOME TO ARTIFYANY <span class="line"></span> A CREATIVE SPACE</p>
+    <h1 class="hero-enter" id="hero-title">Art, worth<br><em>looking at</em><span class="period">.</span></h1>
+    <p class="hero-description hero-enter">A little world of paintings, sketches, and ideas — made to spark curiosity and stay with you.</p>
+    <div class="hero-links hero-enter"><a class="pill primary" href="#gallery">Explore the collection <span>↘</span></a><a class="subtle-link" href="#about">Discover the studio <span>↗</span></a></div>
+  </div>
+  <div class="hero-art hero-enter" aria-label="Featured colorful ArtifyAny painting">
+   <div class="hero-art-halo" aria-hidden="true"></div>
+   <div class="hero-art-frame"><img src="images/art-06.jpg" alt="Colorful painting of Krishna and Radha in blue, yellow and pink" fetchpriority="high"></div>
+   <div class="hero-float" aria-hidden="true"><span>ORIGINAL<br>ARTWORK</span><strong>✳</strong></div>
+   <div class="hero-vertical" aria-hidden="true">A COLLECTION OF COLORS & FEELINGS</div>
+  </div>
+ </div>
+ <div class="hero-bottom"><span>01 — 06 ORIGINAL WORKS</span><a href="#gallery">SCROLL TO EXPLORE <span>↓</span></a></div>
+</section>
+<section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+ <div class="wrap">
+  <div class="section-header reveal"><div><span class="section-index">01 / THE COLLECTION</span><h2 id="gallery-title">The art of <em>seeing differently.</em></h2></div><p>Quiet details. Big ideas. Bold colors.<br>Discover the ArtifyAny collection.</p></div>
+  <div class="filter-row reveal" aria-label="Filter gallery by medium"><div class="filters" role="group" aria-label="Artwork categories"><button type="button" class="filter active" data-filter="all" aria-pressed="true">All work <span>06</span></button><button type="button" class="filter" data-filter="painting" aria-pressed="false">Paintings</button><button type="button" class="filter" data-filter="illustration" aria-pressed="false">Illustrations</button><button type="button" class="filter" data-filter="sketch" aria-pressed="false">Sketches</button></div><span class="filter-note">CLICK ANY ARTWORK TO EXPLORE ↗</span></div>
+  <div class="masonry" id="artGrid">
+   <article class="art-card reveal" data-category="painting" style="--card: #cfe8e5; --offset: 4px"><button class="art-trigger" type="button" data-src="images/art-01.jpg" data-title="Into the Blue Woods" data-medium="Watercolor · Landscape" aria-label="Enlarge Into the Blue Woods"><div class="art-image landscape"><img src="images/art-01.jpg" alt="Watercolor woodland pathway with a distant figure under an umbrella" loading="lazy"><span class="art-view">View artwork ↗</span></div></button><div class="art-meta"><div><h3>Into the Blue Woods</h3><p>Watercolor · Landscape</p></div><span>01</span></div></article>
+   <article class="art-card reveal" data-category="sketch" style="--card: #e6e2dc; --offset: 48px"><button class="art-trigger" type="button" data-src="images/art-02.jpg" data-title="Stillness in Graphite" data-medium="Pencil · Portrait" aria-label="Enlarge Stillness in Graphite"><div class="art-image portrait"><img src="images/art-02.jpg" alt="Monochrome graphite portrait of a Buddha head with a pencil beside it" loading="lazy"><span class="art-view">View artwork ↗</span></div></button><div class="art-meta"><div><h3>Stillness in Graphite</h3><p>Pencil · Portrait</p></div><span>02</span></div></article>
+   <article class="art-card reveal" data-category="painting" style="--card: #daedb4; --offset: 20px"><button class="art-trigger" type="button" data-src="images/art-03.jpg" data-title="Human / Machine" data-medium="Acrylic · Concept" aria-label="Enlarge Human / Machine"><div class="art-image square"><img src="images/art-03.jpg" alt="Split human and robot profile painting against bright green and yellow" loading="lazy"><span class="art-view">View artwork ↗</span></div></button><div class="art-meta"><div><h3>Human / Machine</h3><p>Acrylic · Concept</p></div><span>03</span></div></article>
+   <article class="art-card reveal" data-category="illustration" style="--card: #f4d9d8; --offset: 14px"><button class="art-trigger" type="button" data-src="images/art-04.jpg" data-title="Crimson Silhouette" data-medium="Ink · Illustration" aria-label="Enlarge Crimson Silhouette"><div class="art-image portrait-short"><img src="images/art-04.jpg" alt="Black silhouette framed by a red moon and crimson clouds" loading="lazy"><span class="art-view">View artwork ↗</span></div></button><div class="art-meta"><div><h3>Crimson Silhouette</h3><p>Ink · Illustration</p></div><span>04</span></div></article>
+   <article class="art-card reveal" data-category="painting" style="--card: #d8dee4; --offset: 0px"><button class="art-trigger" type="button" data-src="images/art-05.jpg" data-title="A Spark of Power" data-medium="Painting · Fantasy" aria-label="Enlarge A Spark of Power"><div class="art-image portrait"><img src="images/art-05.jpg" alt="Armored figure in a green cloak casting lightning in a dark scene" loading="lazy"><span class="art-view">View artwork ↗</span></div></button><div class="art-meta"><div><h3>A Spark of Power</h3><p>Painting · Fantasy</p></div><span>05</span></div></article>
+   <article class="art-card reveal" data-category="painting" style="--card: #f7dd93; --offset: 36px"><button class="art-trigger" type="button" data-src="images/art-06.jpg" data-title="Colors of Devotion" data-medium="Acrylic · Figurative" aria-label="Enlarge Colors of Devotion"><div class="art-image tall"><img src="images/art-06.jpg" alt="Vibrant geometric painting of Krishna and Radha" loading="lazy"><span class="art-view">View artwork ↗</span></div></button><div class="art-meta"><div><h3>Colors of Devotion</h3><p>Acrylic · Figurative</p></div><span>06</span></div></article>
+  </div>
+  <div class="gallery-footer reveal"><span>YOU'VE SEEN THE WHOLE COLLECTION ✳</span><a href="https://www.instagram.com/artifyany/" target="_blank" rel="noopener noreferrer">More on Instagram <span>↗</span></a></div>
+ </div>
+</section>
+<section class="statement" aria-label="Art statement"><div class="wrap statement-inner reveal"><p>Made to <span>feel.</span><br>Made to <em>remember.</em></p><span class="statement-star" aria-hidden="true">✳</span></div></section>
+<section class="about-section wrap" id="about"><div class="about-index reveal">02 / THE STORY</div><div class="about-grid"><h2 class="reveal">An open canvas<br>for <em>curiosity.</em></h2><div class="about-copy reveal"><p>ArtifyAny is a home for expressive paintings, detailed sketches, imaginative characters, and the occasional happy accident.</p><p>Every piece begins with an idea and grows into something worth sharing. This portfolio gathers those moments in one little corner of the internet.</p><a class="text-button" href="https://www.instagram.com/artifyany/" target="_blank" rel="noopener noreferrer">Follow the journey <span>↗</span></a></div></div></section>
+<section class="contact-section" id="contact"><div class="wrap contact-wrap reveal"><div><span class="section-index">03 / LET'S CONNECT</span><h2>Let's make<br><em>something beautiful.</em></h2><p>Have a question, an idea, or just want to say hi? Find ArtifyAny on Instagram.</p><a href="https://www.instagram.com/artifyany/" class="pill contact-pill" target="_blank" rel="noopener noreferrer">Say hello on Instagram <span>↗</span></a></div><span class="contact-asterisk" aria-hidden="true">✳</span></div></section>
+</main>
+<footer class="footer wrap"><a class="wordmark" href="#home">artify<span>any</span><b>✳</b></a><span>© 2026 ArtifyAny · Made with imagination.</span><a href="#home">Back to top ↑</a></footer>
+<dialog class="lightbox" id="lightbox" aria-label="Artwork viewer"><button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close artwork viewer">✕</button><div class="lightbox-content"><img id="lightboxImage" alt=""><div class="lightbox-caption"><div><h2 id="lightboxTitle"></h2><p id="lightboxMedium"></p></div><a id="lightboxDownload" download="ArtifyAny-artwork.jpg" aria-label="Download displayed artwork">Download image ↧</a></div></div></dialog>
+</body></html>
