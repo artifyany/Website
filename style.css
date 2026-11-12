@@ -66,3 +66,149 @@ body{background:var(--paper)}
 ::selection{background:#fbc52f;color:#0b0d08}
 :focus-visible{outline:3px solid #d29c15;outline-offset:3px}
 @media(max-width:600px){.brand-logo{width:35px;height:35px}.brand-text{font-size:22px}.wordmark{gap:8px}}
+
+/* ARTIFYANY CONTACT SECTION */
+
+.artify-contact {
+  background: #0B0D08;
+  color: #FBFAF6;
+  padding: 130px 24px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contact-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-label {
+  color: #FBC52F;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+.artify-contact h2 {
+  font-size: clamp(48px, 7vw, 100px);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -3px;
+  margin: 30px 0;
+}
+
+.artify-contact h2 em {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  color: #FBC52F;
+}
+
+.artify-contact p {
+  font-size: 18px;
+  color: #aaa9a4;
+  line-height: 1.8;
+  max-width: 540px;
+  margin: 0 auto 45px;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-btn,
+.instagram-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition:
+    transform 0.4s ease,
+    background 0.4s ease,
+    color 0.4s ease;
+}
+
+.contact-btn {
+  background: #FBC52F;
+  color: #0B0D08;
+}
+
+.contact-btn:hover {
+  background: #fff;
+  color: #0B0D08;
+  transform: translateY(-6px);
+}
+
+.instagram-btn {
+  border: 1px solid #777;
+  color: #fff;
+  background: transparent;
+}
+
+.instagram-btn:hover {
+  border-color: #FBC52F;
+  background: #FBC52F;
+  color: #0B0D08;
+  transform: translateY(-6px);
+}
+
+.contact-email {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-email span {
+  color: #888;
+  letter-spacing: 3px;
+  font-size: 11px;
+}
+
+.contact-email a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact-email a:hover {
+  color: #FBC52F;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 600px) {
+  .artify-contact {
+    padding: 85px 20px;
+  }
+
+  .artify-contact h2 {
+    letter-spacing: -1.5px;
+  }
+
+  .artify-contact p {
+    font-size: 16px;
+  }
+
+  .contact-actions {
+    flex-direction: column;
+  }
+
+  .contact-btn,
+  .instagram-btn {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-btn,
+  .instagram-btn {
+    transition: none;
+  }
+}
